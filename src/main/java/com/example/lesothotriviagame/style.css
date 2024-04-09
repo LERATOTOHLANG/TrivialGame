@@ -1,0 +1,33 @@
+.root {
+    -fx-background-color: #1a4725; /* Deep grey background color */
+    -fx-background-repeat: no-repeat; /* Prevent background image from repeating */
+    -fx-background-size: cover; /* Cover the entire area */
+}
+
+.score-label {
+    -fx-font-size: 20px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+}
+
+.question-label {
+    -fx-font-size: 40px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-text-fill: #FFFFFF; /* Text color (white) */
+}
+
+.option-button {
+    -fx-font-size: 16px; /* Font size */
+    -fx-background-color: #4CAF50; /* Button background color (green) */
+    -fx-border-radius: 8px; /* Button border radius */
+    -fx-padding: 10px 20px; /* Button padding */
+}
+
+.option-button:hover {
+    -fx-background-color: #45a049; /* Button background color on hover (darker green) */
+}
+
+.final-score-label {
+    -fx-font-size: 28px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-text-fill: #F44336; /* Text color (red) */
+}
